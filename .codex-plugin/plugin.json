@@ -1,0 +1,38 @@
+{
+  "name": "joai-projectx",
+  "version": "0.3.0",
+  "description": "Connect ProjectX to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai",
+    "url": "https://joai.ai"
+  },
+  "homepage": "https://joai.ai/en/apps/projectx",
+  "repository": "https://github.com/JoAiHQ/plugins",
+  "license": "MIT",
+  "keywords": [
+    "joai",
+    "mcp",
+    "projectx"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "ProjectX by JoAi",
+    "shortDescription": "Connect ProjectX to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+    "longDescription": "Empowering communities with game-changing products.",
+    "developerName": "JoAi",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://joai.ai/en/apps/projectx",
+    "privacyPolicyURL": "https://legal.vleap.ai/policies/privacy.html",
+    "termsOfServiceURL": "https://legal.vleap.ai/general/legal-notice.html",
+    "defaultPrompt": [
+      "List the ProjectX tools available in this app.",
+      "Explain what setup or authentication ProjectX needs before I run an action.",
+      "Use ProjectX to help me with the task I describe next."
+    ]
+  }
+}
